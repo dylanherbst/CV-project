@@ -1,0 +1,161 @@
+:root {
+    --prussian-blue: #012a4a;
+    --indigo-dye: #013a63;
+    --indigo-dye-2: #01497c;
+    --indigo-dye-3: #014f86;
+    --ucla-blue: #2a6f97;
+    --cerulean: #2c7da0;
+    --air-force-blue: #468faf;
+    --air-superiority-blue: #61a5c2;
+    --sky-blue: #89c2d9;
+    --light-blue: #a9d6e5;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px auto auto auto;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+header {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background: white;
+    color:  #012a4a;
+    text-align: center;
+    padding: 1em 0;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    bottom: 10px;
+
+
+}
+
+header h2 {
+    margin: 0;
+    font-size: 3.5em; 
+    font-weight: bolder; 
+    color: #012a4a;
+    margin-left: 44px; 
+    font-family: 'MuseoModerno', sans-serif;
+    align-self: flex-start;
+    margin-right: auto;
+
+
+}
+
+.img {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 15px;
+    align-self: flex-start;
+    flex-direction: column;
+    margin-right: auto;
+
+}
+
+.Project1, .Project2 {
+        background: white; 
+        padding: 0.5em 1em; 
+        color: #012a4a;
+       margin: 20px;
+        margin-right: 20px;
+        min-width: 450px;
+        min-height: 20px;
+        font-size: 38px;
+        font-weight: bold;
+        font-family: 'Space Grotesk', sans-serif;
+        margin-bottom: -25px;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        transition: all 0.3s ease-in-out 90ms;
+        
+        
+    }
+
+    .Project1:hover, .Project2:hover {
+
+        border:6px solid #012a4a;
+       
+    }
+
+.banner {
+    grid-column: 1 / 4;
+    grid-row: 2;
+    color:#01497c;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.4em;
+    font-weight: bolder; 
+    font-family: 'Space Grotesk', sans-serif;;
+
+}
+
+.content {
+    grid-column: 2 / 4;
+    grid-row: 3 / 5; 
+    padding: 20px;
+    background:white; 
+    color: #012a4a;
+    font-size: 1em; 
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 22px;
+    min-height: 800px;
+    font-weight: bolder;
+
+}
+
+.skill.menu {
+    grid-row: 3 / 5; 
+    grid-column: 1;
+    background: white;
+    color: #2c7da0;
+    font-size: 1em;
+    padding: 20px;
+    font-family: 'Space Grotesk', sans-serif;;
+    font-weight: bolder;
+    font-size: 24px;
+
+}
+
+.skill.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill.menu li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 100ms;
+}
+
+.skill.menu li:hover {
+    background-color: var(--cerulean); 
+    color: var(--prussian-blue);
+}
+
+.contact {
+    grid-row: 4 / 5;
+    grid-column: 1;
+    background: white;
+    color:#2c7da0;
+    font-size: 1em;
+    padding: 20px;
+    font-family: 'Space Grotesk', sans-serif;;
+    font-weight: bolder;
+    font-size: 24px;
+}

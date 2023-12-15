@@ -33,50 +33,208 @@ section {
     padding-top: 500px;
   }
   section p {
-    max-width: 800px;
-    font-size: 20px;
+    max-width: 80%;
+    font-size: 14px;
+    
 }
 h2 {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 18px;
+    align-self: center;
+    margin-left: 24px;
+    max-width: 80%;
 }
 
-section p {
-    max-width: 1800px;
-    font-size: 20px;
-}
 
 li {
-    max-width: 1800px;
-    font-size: 20px;
+    max-width: 80%;
+    font-size: 14px;
+
+    
 }
 
-h2 {
-    font-weight: bold;
-    font-size: 32px;
-}
 
 section ul p {
-    font-size: 20px;
+    font-size: 14px;
     font-style: italic;
     color:#2cb0e9;
 }
 
   
-.chart1 {
-    display:grid 
+/* .charts {
+    display: flex;
+
+}
+.charts div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    width: 30%;      
+    flex-wrap: nowrap; 
+    align-items: flex-start;
+
+   
+} */
+.img1 {
+    content:url("2.png");
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: -220px;
+    width: 270px;
+
+}
+
+.img2 {
+    content:url("3.png");
+    position: absolute;
+    z-index: 1;
+    left: -190px;
+    width: 270px;
+  
+}
+
+.img3 {
+    content:url("4.png");
+    position: absolute;
+    z-index: 0;
+    left: -120px;
+    width: 270px;
+}
+
+.img4 {
+    content:url("5.png");
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: -300px;
+    width: 270px;
+
+}
+
+.img5 {
+    content:url("6.png");
+    position: absolute;
+    z-index: 1;
+    left: -190px;
+    width: 270px;
+}
+
+.img6 {
+    content:url("7.png");
+    position: absolute;
+    left: -87px;
+    z-index: 0;
+    width: 270px;
 }
 
 
-    .charts {
-        display: grid;
-    }
+.img7 {
+    content:url("8.png");
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: -220px;
+    width: 270px;
 
-    .img1 {
-      content: url("7.png");
-    }
+}
 
+.img8 {
+    content:url("9.png");
+    position: absolute;
+    z-index: 1;
+    left: -190px;
+    width: 270px;
+}
+
+.img9 {
+    content:url("10.png");
+    position: absolute;
+    z-index: 0;
+    left: -85px;
+    width: 270px;
+}
+
+
+
+    #projectsSec {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+      
+      }
+      
+      #projectsSec h2 {
+      
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 700px;
+          margin-left: -30px;
+          font-size: 24px;
     
+
+
+      }
+      
+      .Project1, .Project2, .Project3 {
+      
+          margin-top: 10px; 
+          margin-right: 50px;
+          margin-bottom: 10px;
+          margin-left: 5px;
+          padding: 40px;
+          padding-left: 60px;
+          padding-right: 60px;
+          border: 10px solid #01497c;
+          border-spacing: 10px;
+          border-radius: 80px;
+          font-size: 20px;
+          align-self: center;
+          width: 60%;
+      }
+      
+      .Project1:hover, .Project2:hover, .Project3:hover {
+          color:#40baee;
+          margin-top: 20px; 
+          transition: all 0.3s ease-in-out 50ms;
+      
+      }
+      
+      
+      .pagewrap div {
+        max-width: 100%; /* Use full width */
+        padding: 20px; /* Reduce padding */
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .container__input {
+        width: 100%; /* Or any specific width */
+        max-width: 300px; /* Maximum width */
+        padding: 25px 20px; /* Reduce padding */
+        font-size: 18px; /* Reduce font size if necessary */
+        margin: 0 auto;
+    }
+
+    .container__label {
+        font-size: 20px; /* Adjust label font size */
+        /* Other adjustments as needed */
+    }
+
+    .form__submit {
+        padding: 8px; /* Adjust button padding */
+        font-size: 18px; /* Adjust button font size */
+    }
+
+        
+        .form__submit:hover {
+          background-color:#01497c ;
+        } 
+      
   }
 
 

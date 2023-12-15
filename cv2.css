@@ -9,8 +9,6 @@
     --air-superiority-blue: #61a5c2;
     --sky-blue: #89c2d9;
     --light-blue: #a9d6e5;
-
-    /*'Poppins', sans-serif; */
 }
 header {
     display: grid;
@@ -46,6 +44,7 @@ header {
     transition:  all 0.3s ease-in-out 50ms;
     margin-right: 14px;
     transition: margin 0.2s ease-in-out;
+   
     
 }
 
@@ -123,16 +122,6 @@ section ul p {
     width: 60vw; 
 }
 
-
-
-
-/* .charts {
-    display: grid;
-    place-items: center;
-    align-content: center;
-    
-} */
-
 .charts div {
     display: flex;
     align-items: center;
@@ -157,6 +146,7 @@ section ul p {
 } 
 
 .img1 {
+    content:url("2.png");
     position: absolute;
     z-index: 2;
     top: 0;
@@ -165,18 +155,21 @@ section ul p {
 }
 
 .img2 {
+    content:url("3.png");
     position: absolute;
     z-index: 1;
     left:-700px;
 }
 
 .img3 {
+    content:url("4.png");
     position: absolute;
    left: -200px;
     z-index: 0;
 }
 
 .img4 {
+    content:url("5.png");
     position: absolute;
     z-index: 2;
     top: 0;
@@ -185,12 +178,14 @@ section ul p {
 }
 
 .img5 {
+    content:url("6.png");
     position: absolute;
     z-index: 1;
     left:-600px;
 }
 
 .img6 {
+    content:url("7.png");
     position: absolute;
    left: 0px;
     z-index: 0;
@@ -198,6 +193,7 @@ section ul p {
 
 
 .img7 {
+    content:url("8.png");
     position: absolute;
     z-index: 2;
     top: 0;
@@ -206,12 +202,14 @@ section ul p {
 }
 
 .img8 {
+    content:url("9.png");
     position: absolute;
     z-index: 1;
     left:-600px;
 }
 
 .img9 {
+    content:url("10.png");
     position: absolute;
    left: 0px;
     z-index: 0;
@@ -231,8 +229,8 @@ section ul p {
 }
 
 .Project1, .Project2, .Project3 {
-    /* Other styles... */
-    margin-top: 200px; /* Set the initial top margin */
+
+    margin-top: 200px; 
     margin-right: 100px;
     margin-bottom: 100px;
     margin-left: 100px;
@@ -242,19 +240,91 @@ section ul p {
     border: 10px solid #01497c;
     border-spacing: 10px;
     border-radius: 80px;
-
-    /* Alternatively, use shorthand: margin: 200px 100px 100px; */
-    /* Other styles... */
 }
 
 .Project1:hover, .Project2:hover, .Project3:hover {
     color:#40baee;
-    margin-top: 170px; 
+    margin-top: 160px; 
     transition: all 0.3s ease-in-out 50ms;
-    /* Adjusted to create a 'floating' effect */
-    /* Other styles... */
+
 }
 
+
+
+
+
+.pagewrap div {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    width: 100%;        /* Shrinks the width of the container to 50% of its parent */
+    flex-wrap: wrap; 
+    align-items: center;
+    
+    
+    
+  }
+  
+  .form__title {
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  .container {
+    margin-bottom: 20px;
+    position: relative;
+   
+  }
+  
+  .container__input {
+    padding: 50px 150px;
+    border: 4px solid #01497c;
+    border-radius: 40px;
+    box-sizing: border-box;
+    background-color:#9df8ff;
+    font-size: 24px;
+    color:#013a63;
+
+  }
+  
+  .container__input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .container__label {
+    position: absolute;
+    top: -10px;
+    padding: 0 5px;
+    font-size: 20px;
+    color: #1497;
+    align-self: center;
+    text-align: center;
+    display:block;
+    width: 100%;
+    font-size: 30px;
+  }
+  
+  .form__submit {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1497;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form__submit:hover {
+    background-color:#01497c ;
+  } 
 
 
 /*.Education {

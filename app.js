@@ -12,3 +12,15 @@ const observer = new IntersectionObserver(entries => {
 const hiddenElements = document.querySelectorAll('.hidden');
 
 hiddenElements.forEach(el => observer.observe(el));
+
+
+
+
+
+// CODE FOR EMAIL FORM
+
+// var ractive = new Ractive({
+//   el: '#container',
+//   template: '#template',
+//   data: {}
+// }); 

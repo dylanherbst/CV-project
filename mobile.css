@@ -3,7 +3,7 @@
   and (device-height: 844px) 
   and (-webkit-device-pixel-ratio: 3) { */
 
-    @media all and (max-width: 390px) { 
+    @media all and (max-width: 490px) { 
 
 
     header {
